@@ -1,6 +1,6 @@
 import React from "react";
 
-function Coffee() {
+function CoffeeContainer() {
   return (
     <div>
       <h2>Coffee Quantity</h2>
@@ -9,4 +9,4 @@ function Coffee() {
   );
 }
 
-export default Coffee;
+export default CoffeeContainer;

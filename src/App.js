@@ -1,6 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Coffee from "./Components/Coffee";
+import Coffee from "./Components/CoffeeContainer";
 
 function App() {
   return (
