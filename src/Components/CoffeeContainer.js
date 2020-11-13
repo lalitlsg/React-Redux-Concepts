@@ -13,7 +13,7 @@ function CoffeeContainer(props) {
 
 const mapStateToProps = state => {
   return {
-    coffeeQty: state.coffeeQty
+    coffeeQty: state.coffee.coffeeQty
   };
 };
 
