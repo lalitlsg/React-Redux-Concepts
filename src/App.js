@@ -5,6 +5,7 @@ import store from "./Redux/store";
 import HooksCoffeeContainer from "./Components/HooksCoffeeContainer";
 import TeaContainer from "./Components/TeaContainer";
 import CoffeeContainer from "./Components/CoffeeContainer";
+import HooksTeaContainer from "./Components/HooksTeaContainer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <HooksCoffeeContainer />
         <hr />
         <TeaContainer />
+        <HooksTeaContainer />
       </div>
     </Provider>
   );
