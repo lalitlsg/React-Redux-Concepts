@@ -8,6 +8,7 @@ import CoffeeContainer from "./Components/CoffeeContainer";
 import HooksTeaContainer from "./Components/HooksTeaContainer";
 import NewCoffeeContainer from "./Components/NewCoffeeContainer";
 import ItemContainer from "./Components/ItemContainer";
+import UserContainer from "./Components/UserContainer";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
         <hr />
         <TeaContainer />
         <HooksTeaContainer />
+        <hr />
+        <UserContainer />
       </div>
     </Provider>
   );
